@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Ade Wardiana</title>
+  <!-- Link Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Animasi fade-in */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ade Wardiana</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tentang">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Beranda -->
+  <div class="container text-center p-5">
+    <h1 class="text-primary fade-in">Halo, saya Ade Wardiana!</h1>
+    <p class="lead fade-in">Ini website portofolio pertama saya 🚀</p>
+    <button class="btn btn-success fade-in mt-3">Klik Saya</button>
+  </div>
+
+  <!-- Tentang Saya -->
+  <div id="tentang" class="container p-5">
+    <h2 class="text-center fade-in">Tentang Saya</h2>
+    <div class="row align-items-center mt-4">
+      <div class="col-md-6 fade-in">
+        <img src="https://via.placeholder.com/400x300" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 fade-in">
+        <p>Saya Ade Wardiana, siswa kelas 10 di SMKN 1 Katapang jurusan RPL. Saya sudah belajar C++ dan sekarang belajar HTML, CSS, dan Bootstrap. Saya bercita-cita menjadi web developer profesional.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+  <div id="gallery" class="container p-5">
+    <h2 class="text-center fade-in">Gallery</h2>
+    <div class="row mt-4">
+      <div class="col-md-4 fade-in">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid rounded mb-3">
+      </div>
+      <div class="col-md-4 fade-in">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid rounded mb-3">
+      </div>
+      <div class="col-md-4 fade-in">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid rounded mb-3">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center p-3">
+    &copy; 2025 Ade Wardiana. All rights reserved.
+  </footer>
+
+  <!-- Link Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
